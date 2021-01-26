@@ -1,5 +1,11 @@
+# project
 .vscode
 .git
+
+# server
 server/node_modules
+
+# client
 client/.yarn
 client/node_modules
+client/.eslintcache
