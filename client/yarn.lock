@@ -4392,6 +4392,7 @@ __metadata:
     react-dom: ^17.0.1
     react-emoji: ^0.5.0
     react-router: ^5.2.0
+    react-router-dom: ^5.2.0
     react-scripts: 4.0.1
     react-scroll-to-bottom: ^4.1.0
     socket.io-client: ^3.1.0
@@ -12177,7 +12178,24 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"react-router@npm:^5.2.0":
+"react-router-dom@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "react-router-dom@npm:5.2.0"
+  dependencies:
+    "@babel/runtime": ^7.1.2
+    history: ^4.9.0
+    loose-envify: ^1.3.1
+    prop-types: ^15.6.2
+    react-router: 5.2.0
+    tiny-invariant: ^1.0.2
+    tiny-warning: ^1.0.0
+  peerDependencies:
+    react: ">=15"
+  checksum: 9ad2d72630491f324a0f0c1dbcc3dc04d8d7cee7cb9dc9effd115fe736ba06104360a78a624170f863738d77e487d459864206a79d91d3c9663cf1dadb3b637f
+  languageName: node
+  linkType: hard
+
+"react-router@npm:5.2.0, react-router@npm:^5.2.0":
   version: 5.2.0
   resolution: "react-router@npm:5.2.0"
   dependencies:
